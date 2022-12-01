@@ -1,0 +1,238 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dvPad {
+    display: flex;
+    font-size: 14px;
+}
+
+#CabDer{
+    display: flex;
+    flex:2;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+   
+
+}
+
+
+#aImagenes{
+    
+    margin: 0px 25px 0px 1px;
+}
+
+#btnIniSesion{
+    margin: 0px 10px 0px 15px;
+    height: 2.4em;
+    width: 8em;
+    background-color: rgb(40, 153, 245);
+    border-style: none;
+    border-radius: 0.3em;
+    font-size: 15px;
+    color: white;
+    
+}
+
+#btnIniSesion:hover{
+    background-color: rgb(57, 97, 230);
+}
+
+.gb_Ve {
+        display: inline-block;
+        outline: none;
+        vertical-align: middle;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 30px;
+        width: 30px;
+        color: #000;
+        cursor: pointer;
+        text-decoration: none;
+}
+
+.cabecera {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px;
+        margin: 10px;
+        color: black;
+}
+       
+#Central{
+    min-height: 20em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#Buscador{
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#CampoTexto:hover{
+    
+        box-shadow: 0.5px 0.5px 5px 2px rgb(207, 207, 209);
+}
+#CampoTexto{
+
+    margin-top: 2em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(201, 197, 197);
+    border-radius: 1.7em;
+
+   
+    height: 3.2em;
+    width: 45em;
+    
+    display: flex;
+    flex-direction:row;
+ }
+
+#Imagenlupa{
+    padding: 0.5em;
+    display: flex;
+    width: 5%;
+    height: 70%;    
+}
+
+#iputbuscador{
+    background-color: black;
+    display: flex;
+    flex: 2em;
+      
+}
+
+#inptexto{
+    display: flex;
+    
+    font-size: 1.1em;
+    
+    border-style: none;
+    width: 100%;
+    outline: none;
+   
+    display: flex;
+ }
+
+#Imagenbusquedavoz{
+    padding: 0.5em;
+    display: flex;
+    width: 5%;
+    height: 70%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#Imagenbusquedaimagenes{
+    padding: 0.5em;
+    display: flex;
+    margin-right: 0.5em;
+    justify-content: end;
+    width: 5%;
+    height: 70%;
+    cursor: pointer;
+    text-decoration: none;
+}
+ 
+#campoBoton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    width: 21em;
+}
+
+.botonbusqSuerte{
+    height: 2.5em;
+    width: 10em;
+    border-radius: 0.4em;
+    border: 0;
+    font-size: 14px;
+}
+
+.botonbusqSuerte:hover{
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(201, 197, 197);
+}
+
+#dvPadIdiomas{
+    display: flex;
+    justify-content: center;
+    height: 25em;
+}
+
+.idiomas{
+    font-size: 13px;
+    text-decoration: none;
+}
+.pie{
+    
+    display: flex;
+    background-color: rgba(245, 244, 244, 0.699);
+    height: 3em;
+    margin-bottom: 0.5;
+}
+
+#lugar{
+    border-bottom: 1px solid #dadce0;
+}
+
+#lbLugar{
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+
+}
+
+#dvPadTerminos{
+    justify-content: space-between;
+    
+}
+
+.aTerminos{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#terminos1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    flex: 2;
+    
+}
+#hojita{
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+}
+#terminos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 4;
+   
+        
+}
+
+#terminos3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 2;
+       
+}
+
+
+
