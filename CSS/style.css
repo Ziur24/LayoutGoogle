@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.dvPad {
+.hdCabecera, .dvPad {
     display: flex;
     font-size: 14px;
 }
@@ -13,13 +13,9 @@ body{
     align-items: center;
     justify-content: flex-end;
     font-size: 13px;
-   
-
 }
 
-
-#aImagenes{
-    
+#aImagenes{ 
     margin: 0px 25px 0px 1px;
 }
 
@@ -32,7 +28,6 @@ body{
     border-radius: 0.3em;
     font-size: 15px;
     color: white;
-    
 }
 
 #btnIniSesion:hover{
@@ -40,26 +35,26 @@ body{
 }
 
 .gb_Ve {
-        display: inline-block;
-        outline: none;
-        vertical-align: middle;
-        -webkit-border-radius: 2px;
-        border-radius: 2px;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        height: 30px;
-        width: 30px;
-        color: #000;
-        cursor: pointer;
-        text-decoration: none;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .cabecera {
-        text-decoration: none;
-        display: inline-block;
-        padding: 5px;
-        margin: 10px;
-        color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    color: black;
 }
        
 #Central{
@@ -74,15 +69,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
 #CampoTexto:hover{
-    
-        box-shadow: 0.5px 0.5px 5px 2px rgb(207, 207, 209);
+    box-shadow: 0.5px 0.5px 5px 2px rgb(207, 207, 209);
 }
-#CampoTexto{
 
+#CampoTexto{
     margin-top: 2em;
     border-style: solid;
     border-width: 1px;
@@ -108,7 +101,6 @@ body{
     background-color: black;
     display: flex;
     flex: 2em;
-      
 }
 
 #inptexto{
@@ -168,18 +160,26 @@ body{
 #dvPadIdiomas{
     display: flex;
     justify-content: center;
-    height: 25em;
 }
 
 .idiomas{
     font-size: 13px;
     text-decoration: none;
 }
+
 .pie{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.cntPie{
     
     display: flex;
     background-color: rgba(245, 244, 244, 0.699);
-    height: 3em;
+    height: 40px;
     margin-bottom: 0.5;
 }
 
@@ -210,20 +210,19 @@ body{
     align-items: center;
    
     flex: 2;
-    
 }
+
 #hojita{
     width: 15px;
     height: 15px;
     margin-right: 7px;
 }
+
 #terminos2{
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 4;
-   
-        
 }
 
 #terminos3{
@@ -231,7 +230,6 @@ body{
     align-items: center;
     justify-content: space-around;
     flex: 2;
-       
 }
 
 
