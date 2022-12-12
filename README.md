@@ -11,6 +11,6 @@ Se ha realizado el ejercicio en HTML 5  <img src="./imagenes/Logo_html5.png" wid
 
 ## A tener en cuenta
 
-El objetivo no es tanto hacer la vista igual a la del buscador, sino aplicar el posicionamiento de las diferentes secciones con la propiedad flex de CSS.
+El objetivo no es tanto hacer la vista igual a la del buscador, sino aplicar el posicionamiento de las diferentes secciones con la propiedad flex de CSS 3.
 
-Por tanto se hace evidente que ciertas partes de la vista, no tienen funcionalidad (los enlaces no funcionan).
+Por tanto, se hace evidente que ciertas partes del layout no tienen funcionalidad (los enlaces no funcionan).
