@@ -1,3 +1,6 @@
+<p align="center"> <img src="./imagenes/googlelogo_color_272x92dp.png" width="200"></p>
+
+
 # <p align="center"> Ejercicio Layout de Google </p>
 
 ## Descripción
